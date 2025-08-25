@@ -1,4 +1,6 @@
 import fitz
+import nltk
+from nltk.tokenize import sent_tokenize
 
 def extract_text_from_pdf(pdf_path):
     text = ""
